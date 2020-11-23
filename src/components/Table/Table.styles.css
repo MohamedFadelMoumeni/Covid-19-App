@@ -1,0 +1,23 @@
+.table__title {
+    text-align: center;
+}
+.table__element {
+    margin-top: 2em;
+    height: 40vh;
+    overflow:auto;
+    background : #393e46;
+    border-radius: 10px;
+}
+.table__element > tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.table__element > tr > td {
+    padding: 5px 10px;
+  
+}
+.table__element > tr:nth-of-type(odd){
+    background: #222831;
+}

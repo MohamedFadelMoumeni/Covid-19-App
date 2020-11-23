@@ -1,0 +1,12 @@
+.menu-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 1000px){
+    .menu-card {
+         flex-direction: column;
+    }
+}

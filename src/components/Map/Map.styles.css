@@ -1,0 +1,36 @@
+.map {
+    min-width: 400px;
+    background-color:#222831;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1.3em;
+   
+  }
+  .map > h2{
+    text-align: center;
+    color: rgb(241, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .map > h2 > span{
+    margin-left: .5em;
+  }
+  .paragraph{
+    padding: 2em 0;
+    text-align: left;
+    font-size: 1.2em;
+  }
+  .map > h3{
+    text-align: center;
+    color: rgb(241, 75, 75);
+  }
+  .map > h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .love {
+    margin: 0 .5em;
+    color: rgb(241, 75, 75);
+  }

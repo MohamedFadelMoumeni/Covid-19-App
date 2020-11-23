@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__select {
+    background: #222831;
+    outline: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    color: #ed6663;
+}
+.logo > span {
+    margin-left: 5px;
+}
+.header__dropdown {
+    margin-left: 1em;
+}

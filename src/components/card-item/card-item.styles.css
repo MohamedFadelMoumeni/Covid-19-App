@@ -1,0 +1,57 @@
+.card-item{
+    display: flex;
+    flex-direction: column;
+    background: #222831;display: flex;
+    color: #fff;
+    margin: 0 1em;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+    max-height: 400px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.card-container > .details {
+   width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.icon {
+    margin: 0 .5em;
+    font-size: 1em;
+}
+.death {
+  color: rgb(156, 27, 27);
+}
+.recovred{
+color: rgb(27, 109, 27);
+}
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #33363b;
+    border: none;
+}
+.total_number {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .card-item{
+   width: 70%;
+   margin: 1em 0;
+   
+    }
+    .details {
+        padding: 0;
+        width: 100%;
+    }
+}
